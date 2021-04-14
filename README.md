@@ -8,9 +8,15 @@ The main driver of the project was to create an investment route to the public c
 
 
 ## Build Instructions
+
 truffle init UniswapGCAC
+
 cd UniswapGCAC
+
 Copy contracts folder
+
 Edit truffle-config.json set solc version to 0.7.6
+
 npm install @openzeppelin/contracts
+
 truffle build
